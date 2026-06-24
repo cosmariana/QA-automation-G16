@@ -18,9 +18,7 @@ describe('Challenge Shady Meadows - QA Automation', () => {
   // BLOQUE 2: EMERSON
   // ========================================================
 
-  it('XXXXXXXXXXXXXXXXXXXXX', () => {
-    
-  });
+  
 
 
   // ========================================================
