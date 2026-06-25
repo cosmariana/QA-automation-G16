@@ -73,4 +73,24 @@ it('TestCase 12-Enviar un mensaje de contacto utilizando datos completamente vá
   cy.contains('button', 'Submit').click();
 
 });
-})
+
+it('TestCase 13-Verificar que al cancelar la reserva se limpia el formulario y se cierra la pantalla', () => {
+    // Accede directamente a una habitación con fechas válidas
+    cy.visit('https://automationintesting.online/reservation/1?checkin=2026-07-10&checkout=2026-07-12');
+
+    // Abre el formulario de reserva
+    cy.get('#doReservation').click();
+
+    // Completa los datos del huésped utilizando el fixture userData
+    cy.get('input[placeholder="Firstname"]').type(userData.guestUser.firstName);
+    cy.get('input[placeholder="Lastname"]').type(userData.guestUser.lastName);
+    cy.get('input[placeholder="Email"]').type(userData.guestUser.email);
+    cy.get('input[placeholder="Phone"]').type(userData.guestUser.phone);
+
+    // El usuario cancela la operación
+    cy.contains('button', 'Cancel').click();
+
+    //Valida que el formulario se cerró porque volvió a aparecer el botón de abrir reserva
+    cy.get('#doReservation').should('be.visible').and('contain.text', 'Reserve Now');
+  });
+  });
