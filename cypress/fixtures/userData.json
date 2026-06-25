@@ -1,0 +1,15 @@
+{
+  "guestUser": {
+    "firstName": "Oscar",
+    "lastName": "Sape",
+    "email": "sape@gmail.com",
+    "phone": "123456789012"
+  },
+  "contactUser": {
+    "name": "Oscar Sape",
+    "email": "sape@gmail.com",
+    "phone": "123456789012",
+    "subject": "Consulta de disponibilidad para 2026",
+    "description": "Hola, quisiera consultar si tendrán disponibilidad para grupos de 10 personas durante el verano."
+  }
+}
