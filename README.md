@@ -14,7 +14,7 @@ https://docs.google.com/spreadsheets/d/1gNCAGArCSkiOY110mvv_BQ4s-ErqEXPWD0gL_kFu
 
 ### Gestión del Proyecto
 
-https://trello.com/invite/b/6a335c2d8e60c2eb36d466c3/ATTI9703cff68e20cdc3f53423c3762ce75d573D937F/qa-grupo16
+https://trello.com/b/iHKh20kG/qa-grupo16
 
 ---
 
@@ -132,3 +132,7 @@ cypress/fixtures/userData.json
 Grupo 16 - QA Automation Challenge
 
 -Gomez Castro Joaquin Ignacio (gomezjoaquinof@gmail.com)
+-Bravo Gonzalo Ezequiel (gonzalobravo222@gmail.com)
+-Bustamante Callas Emerson Gilmar (bustamante.emerson@gmail.com)
+-Dumpierres Cintia Mariana (cintiadumpierres@gmail.com)
+-Cos Mariana Jesús (cosmarian@gmail.com)

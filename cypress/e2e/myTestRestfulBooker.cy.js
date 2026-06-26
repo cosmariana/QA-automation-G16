@@ -18,7 +18,7 @@ beforeEach(() => {
   cy.visit('https://automationintesting.online/');
 });
 
-it('TestCase 10-Verificar el flujo completo de una reserva exitosa para un usuario invitado', () => {
+it('Verificar el flujo completo de una reserva exitosa para un usuario invitado', () => {
 
   // Accede directamente a una habitación con fechas válidas
   cy.visit('https://automationintesting.online/reservation/1?checkin=2026-07-10&checkout=2026-07-12');
@@ -37,7 +37,7 @@ it('TestCase 10-Verificar el flujo completo de una reserva exitosa para un usuar
 
 });
 
-it('TestCase 11-Verificar las validaciones del formulario de reserva al enviarlo vacío', () => {
+it('Verificar las validaciones del formulario de reserva al enviarlo vacío', () => {
 
   // Ingresa al proceso de reserva desde la página principal
   cy.contains('Book now').first().click();
@@ -60,7 +60,7 @@ it('TestCase 11-Verificar las validaciones del formulario de reserva al enviarlo
 
 });
 
-it('TestCase 12-Enviar un mensaje de contacto utilizando datos completamente válidos', () => {
+it('Enviar un mensaje de contacto utilizando datos completamente válidos', () => {
 
   // Completa el formulario de contacto con datos válidos
   cy.get('#name').type(userData.contactUser.name);
@@ -74,7 +74,7 @@ it('TestCase 12-Enviar un mensaje de contacto utilizando datos completamente vá
 
 });
 
-it('TestCase 13-Verificar que al cancelar la reserva se limpia el formulario y se cierra la pantalla', () => {
+it('Verificar que al cancelar la reserva se limpia el formulario y se cierra la pantalla', () => {
     // Accede directamente a una habitación con fechas válidas
     cy.visit('https://automationintesting.online/reservation/1?checkin=2026-07-10&checkout=2026-07-12');
 
